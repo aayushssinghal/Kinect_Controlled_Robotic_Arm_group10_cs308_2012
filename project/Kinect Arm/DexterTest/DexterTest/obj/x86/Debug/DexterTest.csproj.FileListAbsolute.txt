@@ -1,0 +1,13 @@
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterTest\DexterTest\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterTest\DexterTest\obj\x86\Debug\DexterTest.Form1.resources
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterTest\DexterTest\obj\x86\Debug\DexterTest.Properties.Resources.resources
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterTest\DexterTest\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterTest\DexterTest\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterTest\DexterTest\bin\Debug\DexterTest.exe
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterTest\DexterTest\bin\Debug\DexterTest.pdb
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterTest\DexterTest\bin\Debug\DexterER2.dll
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterTest\DexterTest\bin\Debug\DexterER2.pdb
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterTest\DexterTest\obj\x86\Debug\DexterTest.exe
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterTest\DexterTest\obj\x86\Debug\DexterTest.pdb
+C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Arm\DexterTest\DexterTest\obj\x86\Debug\DexterTest.exe
+C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Arm\DexterTest\DexterTest\obj\x86\Debug\DexterTest.pdb

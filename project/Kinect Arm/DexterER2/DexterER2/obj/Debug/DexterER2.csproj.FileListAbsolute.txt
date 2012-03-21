@@ -1,0 +1,5 @@
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterER2\DexterER2\bin\Debug\DexterER2.dll
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterER2\DexterER2\bin\Debug\DexterER2.pdb
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterER2\DexterER2\obj\Debug\ResolveAssemblyReference.cache
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterER2\DexterER2\obj\Debug\DexterER2.dll
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterER2\DexterER2\obj\Debug\DexterER2.pdb

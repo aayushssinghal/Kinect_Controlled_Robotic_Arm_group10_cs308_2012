@@ -1,0 +1,12 @@
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasicConsole\bin\Debug\KinectAudioBasicConsole.exe
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasicConsole\bin\Debug\KinectAudioBasicConsole.pdb
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasicConsole\obj\x86\Debug\KinectAudioBasicConsole.csprojResolveAssemblyReference.cache
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasicConsole\obj\x86\Debug\KinectAudioBasicConsole.exe
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasicConsole\obj\x86\Debug\KinectAudioBasicConsole.pdb
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasicConsole\bin\Debug\KinectAudioBasicConsole.exe.config
+C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepByStep\KinectAudioBasicConsole\bin\Debug\KinectAudioBasicConsole.exe.config
+C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepByStep\KinectAudioBasicConsole\bin\Debug\KinectAudioBasicConsole.exe
+C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepByStep\KinectAudioBasicConsole\bin\Debug\KinectAudioBasicConsole.pdb
+C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepByStep\KinectAudioBasicConsole\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepByStep\KinectAudioBasicConsole\obj\x86\Debug\KinectAudioBasicConsole.exe
+C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepByStep\KinectAudioBasicConsole\obj\x86\Debug\KinectAudioBasicConsole.pdb

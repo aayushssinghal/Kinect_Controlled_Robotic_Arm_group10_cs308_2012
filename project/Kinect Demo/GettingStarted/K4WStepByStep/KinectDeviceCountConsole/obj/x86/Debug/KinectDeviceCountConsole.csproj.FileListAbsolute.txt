@@ -1,0 +1,10 @@
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectDeviceCountConsole\bin\Debug\KinectDeviceCountConsole.exe
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectDeviceCountConsole\bin\Debug\KinectDeviceCountConsole.pdb
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectDeviceCountConsole\obj\x86\Debug\KinectDeviceCountConsole.csprojResolveAssemblyReference.cache
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectDeviceCountConsole\obj\x86\Debug\KinectDeviceCountConsole.exe
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectDeviceCountConsole\obj\x86\Debug\KinectDeviceCountConsole.pdb
+C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepByStep\KinectDeviceCountConsole\bin\Debug\KinectDeviceCountConsole.exe
+C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepByStep\KinectDeviceCountConsole\bin\Debug\KinectDeviceCountConsole.pdb
+C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepByStep\KinectDeviceCountConsole\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepByStep\KinectDeviceCountConsole\obj\x86\Debug\KinectDeviceCountConsole.exe
+C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepByStep\KinectDeviceCountConsole\obj\x86\Debug\KinectDeviceCountConsole.pdb

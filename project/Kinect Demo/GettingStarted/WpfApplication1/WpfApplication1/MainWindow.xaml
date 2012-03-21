@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="IIT Bombay !!! " Height="350" Width="525">
+    <Grid>
+        <Label Name="labelKinectDeviceID"  Content="Device ID" Foreground="Red"/>
+        <Label Name="labelDeviceStatus" FontWeight="Bold" FontSize="36"  Content="" Foreground="Red"/>
+        <Image Name="videoImageControl" Stretch="Fill" Margin="94,12,147,129" />
+        <Button Content="Up" Height="23" HorizontalAlignment="Left" Margin="416,68,0,0"  VerticalAlignment="Top" Width="75" Name="btnUP" Click="btnUP_Click" />
+        <Button Content="Down" Height="23" HorizontalAlignment="Left" Margin="416,108,0,0"  VerticalAlignment="Top" Width="75" Name="btnDown" Click="btnDown_Click" />
+    </Grid>
+</Window>
+
+    

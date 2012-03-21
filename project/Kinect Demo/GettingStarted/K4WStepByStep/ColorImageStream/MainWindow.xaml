@@ -1,0 +1,8 @@
+﻿<Window x:Class="ColorImageStream.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Color Image Stream" Height="350" Width="525">
+    <Grid>
+        <Image Name="colorImageControl" Stretch="Fill"/>
+    </Grid>
+</Window>

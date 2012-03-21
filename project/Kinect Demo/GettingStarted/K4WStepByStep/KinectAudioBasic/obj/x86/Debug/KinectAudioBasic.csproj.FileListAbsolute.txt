@@ -1,0 +1,12 @@
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasic\bin\Debug\KinectAudioBasic.exe
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasic\bin\Debug\KinectAudioBasic.pdb
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasic\obj\x86\Debug\KinectAudioBasic.csprojResolveAssemblyReference.cache
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasic\obj\x86\Debug\MainWindow.baml
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasic\obj\x86\Debug\MainWindow.g.cs
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasic\obj\x86\Debug\App.g.cs
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasic\obj\x86\Debug\KinectAudioBasic_MarkupCompile.cache
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasic\obj\x86\Debug\KinectAudioBasic.g.resources
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasic\obj\x86\Debug\KinectAudioBasic.Properties.Resources.resources
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasic\obj\x86\Debug\KinectAudioBasic.csproj.GenerateResource.Cache
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasic\obj\x86\Debug\KinectAudioBasic.exe
+D:\IIT Talks\Demo\GettingStarted\K4WStepByStep\KinectAudioBasic\obj\x86\Debug\KinectAudioBasic.pdb

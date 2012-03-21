@@ -1,0 +1,27 @@
+﻿<Window x:Class="SensorStateChange.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kinect Status Change" Height="195" Width="546" Background="Yellow">
+    <Grid>
+        <StackPanel Margin="0,0,0,-65">
+            <Label Name="labelKinectStatus" HorizontalAlignment="Center"
+               Content="" 
+               Foreground="Green" 
+               FontWeight="Bold" 
+               FontSize="40" 
+               Background="Yellow"  />
+            <Label Name="labelKinectSensor" 
+               Content="Kinect For Windows SDK" 
+               Foreground="Red" 
+               FontWeight="Bold" 
+               FontSize="40" 
+               Background="Yellow"  />
+            <Label Name="labelKinectDeviceId" 
+               Content="" 
+               Foreground="Green" 
+               FontWeight="Bold" 
+               FontSize="15" 
+               Background="Yellow"  Margin="0"  />
+        </StackPanel>
+    </Grid>
+</Window>

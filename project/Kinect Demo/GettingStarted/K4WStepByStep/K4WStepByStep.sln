@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorStateChange", "SensorStateChange\SensorStateChange.csproj", "{3A1F4BF0-20A5-4965-9D2F-07192583F830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectDeviceCount", "KinectDeviceCount\KinectDeviceCount.csproj", "{8D50D936-9923-40CA-8A80-17F5588ADB85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectDeviceCountConsole", "KinectDeviceCountConsole\KinectDeviceCountConsole.csproj", "{6E255BC4-EFEF-41D7-94ED-04D5434E3689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorStateChangeConsole", "SensorStateChangeConsole\SensorStateChangeConsole.csproj", "{4EE27F9B-4061-4B79-A92C-B1B5C3F33E71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorImageStream", "ColorImageStream\ColorImageStream.csproj", "{B470DBB6-A958-400E-B94B-5C80474EC239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectSensorElevationAngle", "KinectSensorElevationAngle\KinectSensorElevationAngle.csproj", "{AB78DDEA-42D2-48F9-8493-25BFC00E4D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthImageStream", "DepthImageStream\DepthImageStream.csproj", "{D5986871-63AF-46E5-9492-3209ECC5FC53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkeletonTracking", "SkeletonTracking\SkeletonTracking.csproj", "{A2A1F0D9-AD14-4BD3-96D9-E84E3B3D1EE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectAudioBasicConsole", "KinectAudioBasicConsole\KinectAudioBasicConsole.csproj", "{24AB7F68-5AE1-4FC5-9765-B0B4B1711F1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectFrameSyncDemo", "KinectFrameSyncDemo\KinectFrameSyncDemo.csproj", "{F9DECF3E-9AAB-453F-B53A-C8646438388B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A1F4BF0-20A5-4965-9D2F-07192583F830}.Debug|x86.ActiveCfg = Debug|x86
+		{3A1F4BF0-20A5-4965-9D2F-07192583F830}.Debug|x86.Build.0 = Debug|x86
+		{3A1F4BF0-20A5-4965-9D2F-07192583F830}.Release|x86.ActiveCfg = Release|x86
+		{3A1F4BF0-20A5-4965-9D2F-07192583F830}.Release|x86.Build.0 = Release|x86
+		{8D50D936-9923-40CA-8A80-17F5588ADB85}.Debug|x86.ActiveCfg = Debug|x86
+		{8D50D936-9923-40CA-8A80-17F5588ADB85}.Debug|x86.Build.0 = Debug|x86
+		{8D50D936-9923-40CA-8A80-17F5588ADB85}.Release|x86.ActiveCfg = Release|x86
+		{8D50D936-9923-40CA-8A80-17F5588ADB85}.Release|x86.Build.0 = Release|x86
+		{6E255BC4-EFEF-41D7-94ED-04D5434E3689}.Debug|x86.ActiveCfg = Debug|x86
+		{6E255BC4-EFEF-41D7-94ED-04D5434E3689}.Debug|x86.Build.0 = Debug|x86
+		{6E255BC4-EFEF-41D7-94ED-04D5434E3689}.Release|x86.ActiveCfg = Release|x86
+		{6E255BC4-EFEF-41D7-94ED-04D5434E3689}.Release|x86.Build.0 = Release|x86
+		{4EE27F9B-4061-4B79-A92C-B1B5C3F33E71}.Debug|x86.ActiveCfg = Debug|x86
+		{4EE27F9B-4061-4B79-A92C-B1B5C3F33E71}.Debug|x86.Build.0 = Debug|x86
+		{4EE27F9B-4061-4B79-A92C-B1B5C3F33E71}.Release|x86.ActiveCfg = Release|x86
+		{4EE27F9B-4061-4B79-A92C-B1B5C3F33E71}.Release|x86.Build.0 = Release|x86
+		{B470DBB6-A958-400E-B94B-5C80474EC239}.Debug|x86.ActiveCfg = Debug|x86
+		{B470DBB6-A958-400E-B94B-5C80474EC239}.Debug|x86.Build.0 = Debug|x86
+		{B470DBB6-A958-400E-B94B-5C80474EC239}.Release|x86.ActiveCfg = Release|x86
+		{B470DBB6-A958-400E-B94B-5C80474EC239}.Release|x86.Build.0 = Release|x86
+		{AB78DDEA-42D2-48F9-8493-25BFC00E4D11}.Debug|x86.ActiveCfg = Debug|x86
+		{AB78DDEA-42D2-48F9-8493-25BFC00E4D11}.Debug|x86.Build.0 = Debug|x86
+		{AB78DDEA-42D2-48F9-8493-25BFC00E4D11}.Release|x86.ActiveCfg = Release|x86
+		{AB78DDEA-42D2-48F9-8493-25BFC00E4D11}.Release|x86.Build.0 = Release|x86
+		{D5986871-63AF-46E5-9492-3209ECC5FC53}.Debug|x86.ActiveCfg = Debug|x86
+		{D5986871-63AF-46E5-9492-3209ECC5FC53}.Debug|x86.Build.0 = Debug|x86
+		{D5986871-63AF-46E5-9492-3209ECC5FC53}.Release|x86.ActiveCfg = Release|x86
+		{D5986871-63AF-46E5-9492-3209ECC5FC53}.Release|x86.Build.0 = Release|x86
+		{A2A1F0D9-AD14-4BD3-96D9-E84E3B3D1EE6}.Debug|x86.ActiveCfg = Debug|x86
+		{A2A1F0D9-AD14-4BD3-96D9-E84E3B3D1EE6}.Debug|x86.Build.0 = Debug|x86
+		{A2A1F0D9-AD14-4BD3-96D9-E84E3B3D1EE6}.Release|x86.ActiveCfg = Release|x86
+		{A2A1F0D9-AD14-4BD3-96D9-E84E3B3D1EE6}.Release|x86.Build.0 = Release|x86
+		{24AB7F68-5AE1-4FC5-9765-B0B4B1711F1F}.Debug|x86.ActiveCfg = Debug|x86
+		{24AB7F68-5AE1-4FC5-9765-B0B4B1711F1F}.Debug|x86.Build.0 = Debug|x86
+		{24AB7F68-5AE1-4FC5-9765-B0B4B1711F1F}.Release|x86.ActiveCfg = Release|x86
+		{24AB7F68-5AE1-4FC5-9765-B0B4B1711F1F}.Release|x86.Build.0 = Release|x86
+		{F9DECF3E-9AAB-453F-B53A-C8646438388B}.Debug|x86.ActiveCfg = Debug|x86
+		{F9DECF3E-9AAB-453F-B53A-C8646438388B}.Debug|x86.Build.0 = Debug|x86
+		{F9DECF3E-9AAB-453F-B53A-C8646438388B}.Release|x86.ActiveCfg = Release|x86
+		{F9DECF3E-9AAB-453F-B53A-C8646438388B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+﻿<Window x:Class="KinectDeviceCount.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kinect Device Count" Height="131" Width="525">
+    <Grid>
+        <StackPanel>
+        <Label Name="labelKinectSensor" 
+               Content="Kinect For Windows SDK" 
+               Foreground="Red" 
+               FontWeight="Bold" 
+               FontSize="40" 
+               Background="Yellow"  />
+        <Label Name="labelKinectDeviceId" 
+               Content="" 
+               Foreground="Green" 
+               FontWeight="Bold" 
+               FontSize="15" 
+               Background="Yellow"  Margin="0"  />
+        </StackPanel>
+    </Grid>
+</Window>

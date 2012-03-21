@@ -1,0 +1,12 @@
+D:\IIT Talks\Demo\GettingStarted\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe
+D:\IIT Talks\Demo\GettingStarted\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.pdb
+D:\IIT Talks\Demo\GettingStarted\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+D:\IIT Talks\Demo\GettingStarted\WpfApplication1\WpfApplication1\obj\x86\Debug\MainWindow.baml
+D:\IIT Talks\Demo\GettingStarted\WpfApplication1\WpfApplication1\obj\x86\Debug\MainWindow.g.cs
+D:\IIT Talks\Demo\GettingStarted\WpfApplication1\WpfApplication1\obj\x86\Debug\App.g.cs
+D:\IIT Talks\Demo\GettingStarted\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1_MarkupCompile.cache
+D:\IIT Talks\Demo\GettingStarted\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1.g.resources
+D:\IIT Talks\Demo\GettingStarted\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1.Properties.Resources.resources
+D:\IIT Talks\Demo\GettingStarted\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1.csproj.GenerateResource.Cache
+D:\IIT Talks\Demo\GettingStarted\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1.exe
+D:\IIT Talks\Demo\GettingStarted\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1.pdb

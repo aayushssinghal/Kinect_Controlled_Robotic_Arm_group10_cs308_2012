@@ -45,6 +45,7 @@ public class Plane
 
 public class Mathematics
 {
+    public static Direction upDirection = new Direction(0, 0, 1);
     public static Direction crossProduct(Direction a, Direction b)
     {
         Direction p = new Direction();
@@ -52,6 +53,11 @@ public class Mathematics
         p.y = - a.x * b.z + a.z * b.x;
         p.z = a.x * b.y - a.y * b.x;
         return p;
+    }
+
+    public static double square(double x)
+    {
+        return x * x;
     }
 
     public static double dotProduct(Direction a, Direction b)
@@ -65,12 +71,21 @@ public class Mathematics
         return Math.Sqrt(x.x*x.x + x.y*x.y+x.z*x.z);
     }
 
+    public static double angleBetweenPlanes2pi(Plane a, Plane b)
+    {
+        return angleBetweenLines2pi(a.planePerpendicular(), b.planePerpendicular());
+    }
+
     public static double angleBetweenPlanes(Plane a, Plane b)
     {
         return angleBetweenLines(a.planePerpendicular(), b.planePerpendicular());
     }
 
-    public static double angleBetweenLines(Direction a, Direction b)
+    /**
+     * Angle rotated to go from direction a to direction b, while thumb pointing
+     * towards or closer to up direction
+     */
+    public static double angleBetweenLines2pi(Direction a, Direction b)
     {
         double n = norm(a) * norm(b);
         if (n == 0)
@@ -79,18 +94,32 @@ public class Mathematics
             return 0;
         }
         double x = dotProduct(a, b) / n;
-        if (double.IsNaN(x)) {
+        if (double.IsNaN(x))
+        {
             Console.WriteLine("getting a NAN, angle not defined");
             return 0;
         }
-        return x;
+        Direction cross = crossProduct(a, b);
+        double up = dotProduct(upDirection, cross);
+        if (up >= 0) return Math.Acos(x);
+        else return 2*Math.PI - Math.Acos(x);
+    }
+
+    public static double angleBetweenLines(Direction a, Direction b)
+    {
+        return Math.Cos(angleBetweenLines2pi(a, b));
+    }
+
+    public static double angleBetweenLinesAndPlanes2pi(Plane p, Direction d)
+    {
+        Direction per = p.planePerpendicular();
+        double sangle = angleBetweenLines2pi(per, d);
+        return (sangle + 3 * Math.PI / 2) % (2 * Math.PI);
     }
 
     public static double angleBetweenLinesAndPlanes(Direction d, Plane p)
     {
-        Direction per = p.planePerpendicular();
-        double sin = angleBetweenLines(per, d);
-        return 1 - sin * sin;
+        return Math.Cos(angleBetweenLinesAndPlanes2pi(p, d));
     }
 
     public static bool isInPlane(Direction d, Plane p)

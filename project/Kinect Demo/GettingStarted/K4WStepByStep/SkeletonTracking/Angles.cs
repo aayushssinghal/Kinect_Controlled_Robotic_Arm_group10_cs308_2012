@@ -105,6 +105,84 @@ namespace SkeletonTracking
             Direction D1 = new Direction(wrist, hand);
             Direction D2 = new Direction(elbow, wrist);
             return Mathematics.angleBetweenLines(D1, D2);
+        }
+    }
+}
+
+
+namespace SkeletonTracking
+{
+    public class HandPosition
+    {
+        public static double humanArmLength = 0.1;
+        public Skeleton skeleton;
+        public double baseAngle;
+        public double handDistance;
+        public double horizontalAngle;
+        public bool initialized = false;
+
+        public HandPosition(Skeleton sk)
+        {
+            skeleton = sk;
+            Measure();
+        }
+
+        public void Measure()
+        {
+            Joint shl = skeleton.Joints[JointType.ShoulderLeft];
+            Joint sp = skeleton.Joints[JointType.Spine];
+            Joint shr = skeleton.Joints[JointType.ShoulderRight];
+            Joint handR = skeleton.Joints[JointType.HandRight];
+           
+            Plane p = new Plane(shl, sp, shr);
+            Direction hand = new Direction(shr, handR);
+            double distance = Math.Sqrt(Mathematics.norm(hand));
+            humanArmLength = Math.Max(humanArmLength, distance);
+            double baseangle = Mathematics.angleBetweenLinesAndPlanes2pi(p, hand);
+            Direction vertical = new Direction(0, 1, 0);
+            double angle2 = Mathematics.angleBetweenLines2pi(hand, vertical);
+            if (angle2 > 180)
+            {
+                angle2 = 360 - angle2;
             }
+            if (angle2 > 90)
+            {
+                angle2 = 90;
+            }
+            angle2 = Math.Abs(angle2);
+            angle2 = 90 - angle2;
+
+            baseAngle = baseangle;
+            handDistance = (distance / humanArmLength) * RoboticArm.MaxLength;
+            Console.Write("{0}, {1}, {2}\n", humanArmLength, distance, handDistance);
+            horizontalAngle = angle2;
+            initialized = true;
+        }
+
+        public double getBaseAngle()
+        {
+            return baseAngle;
+        }
+
+        public double getHorizonAngle()
+        {
+            return horizontalAngle;
+        }
+
+        public double getHandDistance()
+        {
+            return handDistance;
+        }
+    }
+}
+
+namespace SkeletonTracking
+{
+    public class RoboticArm
+    {
+        public static double MaxLength = 30.8;
+        public static double Arm1 = 9;
+        public static double Arm2 = 8;
+        public static double Arm3 = 13.8;
     }
 }

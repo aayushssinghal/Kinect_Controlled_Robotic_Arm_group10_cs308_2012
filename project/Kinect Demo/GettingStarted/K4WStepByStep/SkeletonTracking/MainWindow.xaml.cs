@@ -100,19 +100,52 @@ namespace SkeletonTracking
                 ScaleEdges(shoulder_center_right, first.Joints[JointType.ShoulderCenter], first.Joints[JointType.ShoulderRight]);
                 ScaleEdges(head_shoulder, first.Joints[JointType.Head], first.Joints[JointType.ShoulderCenter]);
 
+
                 
-                AxisAngles[1] = round(180-(int)Mathematics.toDegrees(Math.Acos(Angles.s1r(first))));
+                HandPosition measures = new HandPosition(first);
+                double baseA = measures.getBaseAngle();
+                double horA = measures.getHorizonAngle();
+                double hDist = measures.getHandDistance();
+                PolygonAngles poly = new PolygonAngles(hDist);
+                double theta, phi;
+                theta = poly.getTheta();
+                phi = poly.getPhi();
+
+                AxisAngles[1] = round((int)Mathematics.toDegrees(baseA));
+                if (AxisAngles[1] > 270) AxisAngles[1] = 0;
+                AxisAngles[2] = round((int)Mathematics.toDegrees(horA + phi));
+
+                AxisAngles[3] = round((int)Mathematics.toDegrees(theta));
+                AxisAngles[4] = round((int)Mathematics.toDegrees(theta));
+
+
+
+                // Real Part that sets the 6 angles for the robotic arm
+                /*
+                AxisAngles[1] = round(180-(int)Mathematics.toDegrees(Math.Acos(Angles.s1r(first)))+20);
                 AxisAngles[2] = round((int)Mathematics.toDegrees(Math.Acos(Angles.s2r(first))));
                 AxisAngles[3] = round((int)Mathematics.toDegrees(Math.Acos(Angles.er(first))) + 90);
                 
                 AxisAngles[4] = round((int)Mathematics.toDegrees(Math.Acos(Angles.s2l(first))));
+                */
                 AxisAngles[5] = round((int)Mathematics.toDegrees(Math.Acos(Angles.s1l(first))));
-                AxisAngles[6] = round(180 - (int)Mathematics.toDegrees(Math.Acos(Angles.el(first)))) ;
+                AxisAngles[6] = round(180 - (int)Mathematics.toDegrees(Math.Acos(Angles.el(first)))-30) ;
                 
+
+                // Displaying on GUI
                 //Console.WriteLine("{0:F} {1:F} {2:F}", angleAtRightElbow, angleShoulderElbow, angleShoulderWithVertical);
-                W.axis1.Content = AxisAngles[1].ToString();//.Substring(0,4);
+               /* W.axis1.Content = AxisAngles[1].ToString();//.Substring(0,4);
                 W.axis2.Content = AxisAngles[2].ToString();//.Substring(0, 4);
                 W.axis3.Content = AxisAngles[3].ToString();
+                W.axis4.Content = AxisAngles[4].ToString();
+                W.axis5.Content = AxisAngles[5].ToString();
+                W.axis6.Content = AxisAngles[6].ToString();
+                */
+                W.axis1.Content = AxisAngles[1].ToString();//.Substring(0,4);
+                W.axis2.Content = Mathematics.toDegrees(horA).ToString().Substring(0, 4) + " : " + Mathematics.toDegrees(phi).ToString().Substring(0, 4) +
+                    " : " + hDist.ToString().Substring(0, 4);//.Substring(0, 4);
+                Direction d = new Direction(first.Joints[JointType.ShoulderRight], first.Joints[JointType.HandRight]);
+                W.axis3.Content = d.x.ToString().Substring(0, 4) + " : " + d.y.ToString().Substring(0, 4) + " : " + d.z.ToString().Substring(0, 4);
                 W.axis4.Content = AxisAngles[4].ToString();
                 W.axis5.Content = AxisAngles[5].ToString();
                 W.axis6.Content = AxisAngles[6].ToString();
@@ -163,8 +196,8 @@ namespace SkeletonTracking
             b = (byte)(100 * scaledJoint.Position.Z - 100);
             b = (byte)(b*1.3);
             g = r = 0;
-            Console.Write("Color b : ");
-            Console.WriteLine(b);
+            //Console.Write("Color b : ");
+            //Console.WriteLine(b);
             mybrush.Color = Color.FromArgb(255, r, g, b);
             ((Ellipse)element).Fill = mybrush;
         }

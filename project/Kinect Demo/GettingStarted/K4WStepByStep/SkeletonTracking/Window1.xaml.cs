@@ -23,7 +23,7 @@ namespace SkeletonTracking
     {
         public bool RoboticArmMovement;
         int Connection_Status = 1;
-        public ArmCtrl Arm = new ArmCtrl(20, 30);
+        public ArmCtrl Arm = new ArmCtrl(0,60);
         
         public Window1()
         {

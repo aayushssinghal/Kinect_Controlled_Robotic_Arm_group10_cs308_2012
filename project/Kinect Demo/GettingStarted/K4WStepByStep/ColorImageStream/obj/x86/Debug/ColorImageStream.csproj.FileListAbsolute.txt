@@ -23,3 +23,16 @@ C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepBySt
 C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepByStep\ColorImageStream\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepByStep\ColorImageStream\obj\x86\Debug\ColorImageStream.exe
 C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepByStep\ColorImageStream\obj\x86\Debug\ColorImageStream.pdb
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\ColorImageStream\bin\Debug\ColorImageStream.exe
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\ColorImageStream\bin\Debug\ColorImageStream.pdb
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\ColorImageStream\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\ColorImageStream\obj\x86\Debug\MainWindow.baml
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\ColorImageStream\obj\x86\Debug\MainWindow.g.cs
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\ColorImageStream\obj\x86\Debug\App.g.cs
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\ColorImageStream\obj\x86\Debug\ColorImageStream_MarkupCompile.cache
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\ColorImageStream\obj\x86\Debug\ColorImageStream.g.resources
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\ColorImageStream\obj\x86\Debug\ColorImageStream.Properties.Resources.resources
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\ColorImageStream\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\ColorImageStream\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\ColorImageStream\obj\x86\Debug\ColorImageStream.exe
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\ColorImageStream\obj\x86\Debug\ColorImageStream.pdb

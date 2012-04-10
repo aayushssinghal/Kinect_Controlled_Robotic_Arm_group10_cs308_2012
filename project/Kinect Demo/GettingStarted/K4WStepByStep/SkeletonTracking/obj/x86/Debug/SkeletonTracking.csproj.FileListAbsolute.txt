@@ -29,3 +29,37 @@ C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepBySt
 C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\Window1.g.cs
 C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\bin\Debug\DexterER2.dll
 C:\Users\aayush\Desktop\sem6\erts\PROJECT\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\bin\Debug\DexterER2.pdb
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\SkeletonTracking.exe
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\SkeletonTracking.pdb
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\bin\Debug\SkeletonTracking.exe
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\bin\Debug\SkeletonTracking.pdb
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\bin\Debug\DexterER2.dll
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\bin\Debug\DexterER2.pdb
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\MainWindow.baml
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\Window1.baml
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\MainWindow.g.cs
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\Window1.g.cs
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\App.g.cs
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\SkeletonTracking_MarkupCompile.cache
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\SkeletonTracking.g.resources
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\SkeletonTracking.Properties.Resources.resources
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\gopisivakanth\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\SkeletonTracking.exe
+D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\SkeletonTracking.pdb
+D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\bin\Debug\SkeletonTracking.exe
+D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\bin\Debug\SkeletonTracking.pdb
+D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\bin\Debug\DexterER2.dll
+D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\bin\Debug\DexterER2.pdb
+D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\MainWindow.baml
+D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\Window1.baml
+D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\MainWindow.g.cs
+D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\Window1.g.cs
+D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\App.g.cs
+D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\SkeletonTracking_MarkupCompile.cache
+D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\SkeletonTracking.g.resources
+D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\SkeletonTracking.Properties.Resources.resources
+D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\GenerateResource.write.1.tlog

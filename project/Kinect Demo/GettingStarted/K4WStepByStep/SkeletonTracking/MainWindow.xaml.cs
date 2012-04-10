@@ -26,9 +26,29 @@ namespace SkeletonTracking
         const int skeletonCount = 6;
         Skeleton[] allSkeletons = new Skeleton[skeletonCount];
         Window1 W;
-        int[] lastFewAverages = new int[7];
+        const int sampleSize = 10;
+        int[][] lastFewValues = new int[7][];
+        int currentValue = 0;
         double[] variance = new double[7];
         int[] AxisAngles = new int[7];
+
+        public static int GetMedian(int[] sourceNumbers)
+        {
+            //Framework 2.0 version of this method. there is an easier way in F4        
+            if (sourceNumbers == null || sourceNumbers.Length == 0)
+                return 0;
+
+            //make sure the list is sorted, but use a new array
+            int[] sortedPNumbers = (int[])sourceNumbers.Clone();
+            sourceNumbers.CopyTo(sortedPNumbers, 0);
+            Array.Sort(sortedPNumbers);
+
+            //get the median
+            int size = sortedPNumbers.Length;
+            int mid = size / 2;
+            int median = (size % 2 != 0) ? (int)sortedPNumbers[mid] : ((int)sortedPNumbers[mid] + (int)sortedPNumbers[mid - 1]) / 2;
+            return median;
+        }
 
         public MainWindow()
         {
@@ -46,6 +66,11 @@ namespace SkeletonTracking
 
         void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
+            for (int i = 0; i < 7; i++)
+            {
+                lastFewValues[i] = new int[sampleSize];
+                for (int j = 0; j < sampleSize; j++) lastFewValues[i][j] = 90;
+            }
             if (KinectSensor.KinectSensors.Count > 0)
             {
                 sensor = KinectSensor.KinectSensors[0];
@@ -111,14 +136,29 @@ namespace SkeletonTracking
                 theta = poly.getTheta();
                 phi = poly.getPhi();
 
-                AxisAngles[1] = round((int)Mathematics.toDegrees(baseA));
+
+                lastFewValues[1][currentValue] = round(180 - (int)Mathematics.toDegrees(baseA));
+                lastFewValues[2][currentValue] = round(180 - (int)Mathematics.toDegrees(horA + phi));
+                lastFewValues[3][currentValue] = round((int)Mathematics.toDegrees(theta) + 90);
+                lastFewValues[4][currentValue] = round((int)Mathematics.toDegrees(theta) + 90);
+                lastFewValues[5][currentValue] = round((int)Mathematics.toDegrees(Math.Acos(Angles.s1l(first))));
+                lastFewValues[6][currentValue] = round(180 - (int)Mathematics.toDegrees(Math.Acos(Angles.el(first))) - 30);
+
+                currentValue = (currentValue + 1) % sampleSize;
+
+                for (int i = 1; i < 7; i++ ) AxisAngles[i] = GetMedian(lastFewValues[i]);
+                if (AxisAngles[1] > 180) AxisAngles[1] = 180;
+
+                /*
+                AxisAngles[1] =  ( round(180 - (int)Mathematics.toDegrees(baseA)) + lastFewAverages[1])/2;
                 if (AxisAngles[1] > 270) AxisAngles[1] = 0;
-                AxisAngles[2] = round((int)Mathematics.toDegrees(horA + phi));
+                AxisAngles[2] = ( round(180-(int)Mathematics.toDegrees(horA + phi)) + lastFewAverages[2])/2;
 
-                AxisAngles[3] = round((int)Mathematics.toDegrees(theta));
-                AxisAngles[4] = round((int)Mathematics.toDegrees(theta));
-
-
+                AxisAngles[3] = ( round((int)Mathematics.toDegrees(theta)+90) + lastFewAverages[3])/2;
+                AxisAngles[4] = ( round((int)Mathematics.toDegrees(theta)+90) + lastFewAverages[4])/2;
+                AxisAngles[5] = ( round((int)Mathematics.toDegrees(Math.Acos(Angles.s1l(first)))) + lastFewAverages[5])/2;
+                AxisAngles[6] = ( round(180 - (int)Mathematics.toDegrees(Math.Acos(Angles.el(first))) - 30) + lastFewAverages[6])/2;
+                */
 
                 // Real Part that sets the 6 angles for the robotic arm
                 /*
@@ -127,10 +167,10 @@ namespace SkeletonTracking
                 AxisAngles[3] = round((int)Mathematics.toDegrees(Math.Acos(Angles.er(first))) + 90);
                 
                 AxisAngles[4] = round((int)Mathematics.toDegrees(Math.Acos(Angles.s2l(first))));
-                */
                 AxisAngles[5] = round((int)Mathematics.toDegrees(Math.Acos(Angles.s1l(first))));
                 AxisAngles[6] = round(180 - (int)Mathematics.toDegrees(Math.Acos(Angles.el(first)))-30) ;
-                
+                */
+
 
                 // Displaying on GUI
                 //Console.WriteLine("{0:F} {1:F} {2:F}", angleAtRightElbow, angleShoulderElbow, angleShoulderWithVertical);
@@ -142,10 +182,12 @@ namespace SkeletonTracking
                 W.axis6.Content = AxisAngles[6].ToString();
                 */
                 W.axis1.Content = AxisAngles[1].ToString();//.Substring(0,4);
-                W.axis2.Content = Mathematics.toDegrees(horA).ToString().Substring(0, 4) + " : " + Mathematics.toDegrees(phi).ToString().Substring(0, 4) +
-                    " : " + hDist.ToString().Substring(0, 4);//.Substring(0, 4);
+                
                 Direction d = new Direction(first.Joints[JointType.ShoulderRight], first.Joints[JointType.HandRight]);
-                W.axis3.Content = d.x.ToString().Substring(0, 4) + " : " + d.y.ToString().Substring(0, 4) + " : " + d.z.ToString().Substring(0, 4);
+                W.axis2.Content = AxisAngles[2].ToString();// d.x.ToString().Substring(0, 4) + " : " + d.y.ToString().Substring(0, 4) + " : " + d.z.ToString().Substring(0, 4);
+          
+                W.axis3.Content = Mathematics.toDegrees(horA).ToString() + " : " + Mathematics.toDegrees(phi).ToString() +
+                    " : " + hDist.ToString();//.Substring(0, 4);
                 W.axis4.Content = AxisAngles[4].ToString();
                 W.axis5.Content = AxisAngles[5].ToString();
                 W.axis6.Content = AxisAngles[6].ToString();

@@ -50,7 +50,7 @@ public class Mathematics
     {
         Direction p = new Direction();
         p.x = a.y * b.z - b.y * a.z;
-        p.y = - a.x * b.z + a.z * b.x;
+        p.y = -a.x * b.z + a.z * b.x;
         p.z = a.x * b.y - a.y * b.x;
         return p;
     }
@@ -65,10 +65,10 @@ public class Mathematics
         double val = a.x * b.x + a.y * b.y + a.z * b.z;
         return val;
     }
-    
+
     public static double norm(Direction x)
     {
-        return Math.Sqrt(x.x*x.x + x.y*x.y+x.z*x.z);
+        return Math.Sqrt(x.x * x.x + x.y * x.y + x.z * x.z);
     }
 
     public static double angleBetweenPlanes2pi(Plane a, Plane b)
@@ -102,7 +102,27 @@ public class Mathematics
         Direction cross = crossProduct(a, b);
         double up = dotProduct(upDirection, cross);
         if (up >= 0) return Math.Acos(x);
-        else return 2*Math.PI - Math.Acos(x);
+        else return 2 * Math.PI - Math.Acos(x);
+    }
+
+    public static double angleBetweenLines2pi(Direction a, Direction b, Direction vertical)
+    {
+        double n = norm(a) * norm(b);
+        if (n == 0)
+        {
+            Console.WriteLine("norm is 0, angle not defined");
+            return 0;
+        }
+        double x = dotProduct(a, b) / n;
+        if (double.IsNaN(x))
+        {
+            Console.WriteLine("getting a NAN, angle not defined");
+            return 0;
+        }
+        Direction cross = crossProduct(a, b);
+        double up = dotProduct(vertical, cross);
+        if (up >= 0) return Math.Acos(x);
+        else return 2 * Math.PI - Math.Acos(x);
     }
 
     public static double angleBetweenLines(Direction a, Direction b)
@@ -110,11 +130,18 @@ public class Mathematics
         return Math.Cos(angleBetweenLines2pi(a, b));
     }
 
+    public static double angleBetweenLinesAndPlanes2pi(Plane p, Direction d, Direction vertical)
+    {
+        Direction per = p.planePerpendicular();
+        double sangle = angleBetweenLines2pi(per, d, vertical);
+        return (-sangle + 5 * Math.PI / 2) % (2 * Math.PI); // 90 - sangle
+    }
+
     public static double angleBetweenLinesAndPlanes2pi(Plane p, Direction d)
     {
         Direction per = p.planePerpendicular();
         double sangle = angleBetweenLines2pi(per, d);
-        return (sangle + 3 * Math.PI / 2) % (2 * Math.PI);
+        return (-sangle + 5 * Math.PI / 2) % (2 * Math.PI); // 90 - sangle
     }
 
     public static double angleBetweenLinesAndPlanes(Direction d, Plane p)

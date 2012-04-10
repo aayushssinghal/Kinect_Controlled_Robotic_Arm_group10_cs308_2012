@@ -63,3 +63,21 @@ D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlle
 D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\SkeletonTracking.Properties.Resources.resources
 D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\GenerateResource.read.1.tlog
 D:\Backup\Aakash\Documents\Academics\Semester 6\ERTS\RoboticArm\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\SkeletonTracking.exe
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\SkeletonTracking.pdb
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\bin\Debug\SkeletonTracking.exe
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\bin\Debug\SkeletonTracking.pdb
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\bin\Debug\DexterER2.dll
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\bin\Debug\DexterER2.pdb
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\MainWindow.baml
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\Window1.baml
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\Window1.g.cs
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\App.g.cs
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\SkeletonTracking_MarkupCompile.cache
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\SkeletonTracking.g.resources
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\SkeletonTracking.Properties.Resources.resources
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Demo\GettingStarted\K4WStepByStep\SkeletonTracking\obj\x86\Debug\GenerateResource.write.1.tlog

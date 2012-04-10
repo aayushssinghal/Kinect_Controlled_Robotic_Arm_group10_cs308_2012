@@ -127,7 +127,7 @@ namespace SkeletonTracking
 
 
                 
-                HandPosition measures = new HandPosition(first);
+                HandPositionLower measures = new HandPositionLower(first);
                 double baseA = measures.getBaseAngle();
                 double horA = measures.getHorizonAngle();
                 double hDist = measures.getHandDistance();
@@ -141,7 +141,9 @@ namespace SkeletonTracking
                 lastFewValues[2][currentValue] = round(180 - (int)Mathematics.toDegrees(horA + phi));
                 lastFewValues[3][currentValue] = round((int)Mathematics.toDegrees(theta) + 90);
                 lastFewValues[4][currentValue] = round((int)Mathematics.toDegrees(theta) + 90);
-                lastFewValues[5][currentValue] = round((int)Mathematics.toDegrees(Math.Acos(Angles.s1l(first))));
+                //lastFewValues[5][currentValue] = round((int)Mathematics.toDegrees(Math.Acos(Angles.s1l(first))));
+                lastFewValues[5][currentValue] = round((int)Mathematics.toDegrees(Math.Acos(Angles.s2l(first))));
+                lastFewValues[5][currentValue] = Math.Min(180, Math.Max(90, 180 - lastFewValues[5][currentValue] + 90 - 20));
                 lastFewValues[6][currentValue] = round(180 - (int)Mathematics.toDegrees(Math.Acos(Angles.el(first))) - 30);
 
                 currentValue = (currentValue + 1) % sampleSize;
@@ -184,13 +186,15 @@ namespace SkeletonTracking
                 W.axis1.Content = AxisAngles[1].ToString();//.Substring(0,4);
                 
                 Direction d = new Direction(first.Joints[JointType.ShoulderRight], first.Joints[JointType.HandRight]);
-                W.axis2.Content = AxisAngles[2].ToString();// d.x.ToString().Substring(0, 4) + " : " + d.y.ToString().Substring(0, 4) + " : " + d.z.ToString().Substring(0, 4);
+                d.y += 0.3;
+                W.axis2.Content = AxisAngles[2].ToString();//
+                W.axis6.Content = d.x.ToString().Substring(0, 4) + " : " + d.y.ToString().Substring(0, 4) + " : " + d.z.ToString().Substring(0, 4);
           
                 W.axis3.Content = Mathematics.toDegrees(horA).ToString() + " : " + Mathematics.toDegrees(phi).ToString() +
                     " : " + hDist.ToString();//.Substring(0, 4);
                 W.axis4.Content = AxisAngles[4].ToString();
                 W.axis5.Content = AxisAngles[5].ToString();
-                W.axis6.Content = AxisAngles[6].ToString();
+                //W.axis6.Content = AxisAngles[6].ToString();
 
 
                 if (W.RoboticArmMovement)

@@ -175,6 +175,73 @@ namespace SkeletonTracking
             return handDistance;
         }
     }
+
+
+    public class HandPositionLower
+    {
+        public static double humanArmLength = 0.1;
+        public Skeleton skeleton;
+        public double baseAngle;
+        public double handDistance;
+        public double horizontalAngle;
+        public bool initialized = false;
+
+        public HandPositionLower(Skeleton sk)
+        {
+            skeleton = sk;
+            Measure();
+        }
+
+        public void Measure()
+        {
+            Joint shl = skeleton.Joints[JointType.ShoulderLeft];
+            Joint sp = skeleton.Joints[JointType.Spine];
+            Joint shr = skeleton.Joints[JointType.ShoulderRight];
+            Joint handR = skeleton.Joints[JointType.HandRight];
+
+            Plane p = new Plane(shl, sp, shr);
+            Direction hand = new Direction(shr, handR);
+            hand.y += 0.3;
+            Direction projectedhand = new Direction(hand.x, 0, hand.z);
+            double distance = Mathematics.norm(hand);
+            humanArmLength = 0.45;//Math.Max(humanArmLength, distance);
+            Direction vertical = new Direction(0, 1, 0);
+            double baseangle = Mathematics.angleBetweenLines2pi(p.planePerpendicular(), projectedhand, vertical) - Math.PI / 2.0; // in 2nd quardant 
+            double angle2 = Mathematics.angleBetweenLines2pi(hand, vertical);
+            if (angle2 > Math.PI)
+            {
+                angle2 = 2 * Math.PI - angle2;
+            }
+            if (angle2 > Math.PI / 2)
+            {
+                angle2 = Math.PI / 2;
+            }
+            angle2 = Math.Abs(angle2);
+            angle2 = Math.PI / 2 - angle2;
+
+            baseAngle = baseangle;
+            handDistance = (distance / humanArmLength) * RoboticArm.MaxLength;
+            Console.Write("{0}, {1}, {2}\n", humanArmLength, distance, handDistance);
+            horizontalAngle = angle2;
+            initialized = true;
+        }
+
+        public double getBaseAngle()
+        {
+            return baseAngle;
+        }
+
+        public double getHorizonAngle()
+        {
+            return horizontalAngle;
+        }
+
+        public double getHandDistance()
+        {
+            return handDistance;
+        }
+    }
+
 }
 
 namespace SkeletonTracking

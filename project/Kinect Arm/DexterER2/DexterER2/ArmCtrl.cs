@@ -66,6 +66,7 @@ namespace DexterER2
         private System.Threading.Timer thrdTimer;
         private int speed_limit;
         private int angle_limit;
+        int timer_period;
         public void reset()
         {
             int default_angle = 90;
@@ -76,8 +77,9 @@ namespace DexterER2
             }
         }
 
-        public ArmCtrl(int _angle_limit, int _speed_limit)
+        public ArmCtrl(int _angle_limit, int _speed_limit,int _timer_period=100)
         {
+            timer_period = _timer_period;
             if (_angle_limit >= 0 && _angle_limit <= 180 && _speed_limit >= 0 && _speed_limit <= 180)
             {
                 angle_limit = _angle_limit;
@@ -113,7 +115,7 @@ namespace DexterER2
                     if (this.flag)
                     {
                         this.cb = new TimerCallback(this.send);
-                        this.thrdTimer = new System.Threading.Timer(this.cb, 10, 0, 200);
+                        this.thrdTimer = new System.Threading.Timer(this.cb, 10, 0, timer_period);
                     }
                     return 0;
                 }
@@ -173,6 +175,10 @@ namespace DexterER2
                 case 1:
                     this.servo_move1(angle, speed); break;
                 case 2:
+                    if (_speed > 90) { 
+                        _speed=90;
+                        speed = _speed.ToString("X");
+                    }
                     this.servo_move4(angle, speed); break;
                 case 3:
                     this.servo_move7(angle, speed); break;

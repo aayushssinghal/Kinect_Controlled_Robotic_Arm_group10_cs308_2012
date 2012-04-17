@@ -159,13 +159,10 @@ namespace DexterER2
             {
                 _angle = 180-angle_limit;
             }
-            if (_speed < speed_limit )
+            
+            if (_speed > speed_limit )
             {
                 _speed = speed_limit;
-            }
-            if ( _speed > 180 - speed_limit)
-            {
-                _speed = 180-speed_limit;
             }
 
             string angle = _angle.ToString("X");

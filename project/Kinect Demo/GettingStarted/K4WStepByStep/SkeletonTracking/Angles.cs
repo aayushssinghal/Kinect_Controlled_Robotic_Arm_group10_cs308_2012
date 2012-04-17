@@ -204,7 +204,7 @@ namespace SkeletonTracking
             hand.y += 0.3;
             Direction projectedhand = new Direction(hand.x, 0, hand.z);
             double distance = Mathematics.norm(hand);
-            humanArmLength = 0.45;//Math.Max(humanArmLength, distance);
+            humanArmLength = 0.6;//Math.Max(humanArmLength, distance);
             Direction vertical = new Direction(0, 1, 0);
             double baseangle = Mathematics.angleBetweenLines2pi(p.planePerpendicular(), projectedhand, vertical) - Math.PI / 2.0; // in 2nd quardant 
             double angle2 = Mathematics.angleBetweenLines2pi(hand, vertical);

@@ -12,6 +12,8 @@ using System.IO.Ports;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using DexterER2;
+using Coding4Fun.Kinect.Wpf;
+using Microsoft.Kinect;
 
 namespace SkeletonTracking
 {
@@ -23,13 +25,15 @@ namespace SkeletonTracking
     {
         public bool RoboticArmMovement;
         int Connection_Status = 1;
-        public ArmCtrl Arm = new ArmCtrl(0,120,200);
-        
+        public int ArmSpeed = 90;
+        public ArmCtrl Arm = new ArmCtrl(0,180,200);
+        KinectSensor sensor = KinectSensor.KinectSensors[0];    
         public Window1()
         {
             RoboticArmMovement = false;
             InitializeComponent();
             InitializeComports();
+            this.StartKinect();
             StartStopBtn.IsEnabled = false;
         }
  
@@ -108,10 +112,52 @@ namespace SkeletonTracking
             }
         }
 
-       
-      
         
-        
+        // Event handler for Button Down to decrease kinect elevation angle
+        private void Click_down(object sender, RoutedEventArgs e)
+        {
+            if (sensor.ElevationAngle - 4 > sensor.MinElevationAngle)
+            {
+                sensor.ElevationAngle -= 4;
+            }
+            int angle = this.sensor.ElevationAngle;
+            labelAngle.Text = Convert.ToString(angle);
+        }
+
+
+        // Event handler for Button Up to increase kinect elevation angle
+        private void Click_up(object sender, RoutedEventArgs e)
+        {
+            if (sensor.ElevationAngle + 4 < sensor.MaxElevationAngle)
+            {
+                sensor.ElevationAngle += 4;
+            }
+            int angle = this.sensor.ElevationAngle;
+            labelAngle.Text = Convert.ToString(angle);
+            
+        }
+
+        private void StartKinect()
+        {
+
+            sensor.Start();            // set the elevation Angle to 0 when start
+            this.sensor.ElevationAngle = 0;
+            labelAngle.Text = Convert.ToString(this.sensor.ElevationAngle);
+            //SpeedLabel.Content = "90";
+        }
+
+        private void changeSpeed(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+           ArmSpeed = Convert.ToInt32(slider1.Value) ;
+           //SpeedLabel.Content = ArmSpeed.ToString();
+        }
+
+        private void changeElevation(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+           // int angle = Convert.ToInt32(slider2.Value);
+           // this.sensor.ElevationAngle = angle;
+           // labelAngle.Text = Convert.ToString(angle);
+        }
     }
     
 }

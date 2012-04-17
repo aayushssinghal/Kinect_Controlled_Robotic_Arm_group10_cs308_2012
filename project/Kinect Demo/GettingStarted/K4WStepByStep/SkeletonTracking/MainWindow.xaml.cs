@@ -74,15 +74,41 @@ namespace SkeletonTracking
             if (KinectSensor.KinectSensors.Count > 0)
             {
                 sensor = KinectSensor.KinectSensors[0];
+                sensor.ColorStream.Enable();
+                sensor.ColorFrameReady += new EventHandler<ColorImageFrameReadyEventArgs>(sensor_ColorFrameReady);
                 sensor.SkeletonFrameReady += new EventHandler<SkeletonFrameReadyEventArgs>(sensor_SkeletonFrameReady);
                 sensor.SkeletonStream.Enable();
+                
                 sensor.Start();
             }
             else
             {
                 MessageBox.Show("No Device Found !!!");
             }
+            
         }
+        //augmented code
+        void sensor_ColorFrameReady(object sender, ColorImageFrameReadyEventArgs e)
+        {
+            using (ColorImageFrame imageFrame = e.OpenColorImageFrame())
+            {
+                if (imageFrame == null)
+                {
+                    return;
+                }
+
+                byte[] pixelData = new byte[imageFrame.PixelDataLength];
+
+                imageFrame.CopyPixelDataTo(pixelData);
+
+                colorImageControl.Source = BitmapSource.Create(imageFrame.Width, imageFrame.Height, 60, 60, PixelFormats.Bgr32, null, pixelData, imageFrame.Width * 4);
+
+            }
+        }
+
+
+
+
 
         void sensor_SkeletonFrameReady(object sender, SkeletonFrameReadyEventArgs e)
         {
@@ -188,10 +214,9 @@ namespace SkeletonTracking
                 Direction d = new Direction(first.Joints[JointType.ShoulderRight], first.Joints[JointType.HandRight]);
                 d.y += 0.3;
                 W.axis2.Content = AxisAngles[2].ToString();//
-                W.axis6.Content = d.x.ToString().Substring(0, 4) + " : " + d.y.ToString().Substring(0, 4) + " : " + d.z.ToString().Substring(0, 4);
-          
-                W.axis3.Content = Mathematics.toDegrees(horA).ToString() + " : " + Mathematics.toDegrees(phi).ToString() +
-                    " : " + hDist.ToString();//.Substring(0, 4);
+                W.axis6.Content = AxisAngles[6].ToString();//d.x.ToString().Substring(0, 4) + " : " + d.y.ToString().Substring(0, 4) + " : " + d.z.ToString().Substring(0, 4);
+
+                W.axis3.Content = AxisAngles[3].ToString();// Mathematics.toDegrees(horA).ToString() + " : " + Mathematics.toDegrees(phi).ToString() +" : " + hDist.ToString();//.Substring(0, 4);
                 W.axis4.Content = AxisAngles[4].ToString();
                 W.axis5.Content = AxisAngles[5].ToString();
                 //W.axis6.Content = AxisAngles[6].ToString();
@@ -212,15 +237,15 @@ namespace SkeletonTracking
         public void MoveRoboticArm(int[] angles) 
         {
             for(int i=1;i<=6;i++){
-                W.Arm.servo_move(i,angles[i],20);
+                W.Arm.servo_move(i,angles[i],W.ArmSpeed);
             }
         }
                 
 
         private void ScaleEdges(Line line, Joint one, Joint two)
         {
-            Joint scaledJoint1 = one.ScaleTo(320, 320, .5f, .5f);
-            Joint scaledJoint2 = two.ScaleTo(320, 320, .5f, .5f);
+            Joint scaledJoint1 = one.ScaleTo(720, 720, .8f, .8f);
+            Joint scaledJoint2 = two.ScaleTo(720, 720, .8f, .8f);
             line.X1 = scaledJoint1.Position.X;
             line.X2 = scaledJoint2.Position.X;
             line.Y1 = scaledJoint1.Position.Y;
@@ -233,7 +258,7 @@ namespace SkeletonTracking
             //Joint scaledJoint = joint.ScaleTo(1280, 720); 
 
             //convert & scale (.3 = means 1/3 of joint distance)
-            Joint scaledJoint = joint.ScaleTo(320, 320, .5f, .5f);
+            Joint scaledJoint = joint.ScaleTo(720, 720, .8f, .8f);
 
             Canvas.SetLeft(element, scaledJoint.Position.X);
             Canvas.SetTop(element, scaledJoint.Position.Y);

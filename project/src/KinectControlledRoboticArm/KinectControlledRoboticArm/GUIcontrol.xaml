@@ -1,0 +1,40 @@
+﻿<Window x:Class="KinectControlledRoboticArm.GUIcontrol"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GUIcontrol" Height="426" Width="457" DataContext="{Binding}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="13*" />
+            <ColumnDefinition Width="265*" />
+        </Grid.ColumnDefinitions>
+        <Label Height="28" HorizontalAlignment="Right" Margin="0,12,292,0" Name="axis1" VerticalAlignment="Top" Grid.Column="1" Content="90" />
+        <Label Content="90" Grid.Column="1" Height="28" HorizontalAlignment="Left" Margin="102,0,0,314" Name="axis2" VerticalAlignment="Bottom" />
+        <Label Content="90" Grid.Column="1" Height="28" HorizontalAlignment="Left" Margin="102,82,0,0" Name="axis3" VerticalAlignment="Top" />
+        <Button Content="Start" Grid.Column="1" Height="24" HorizontalAlignment="Left" Margin="153,298,0,0" Name="StartStopBtn" VerticalAlignment="Top" Width="69" Click="StartStopBtn_Click" />
+        <Label Content="Axis 1" Grid.Column="1" Height="30" HorizontalAlignment="Left" Margin="17,12,0,0" Name="label4" VerticalAlignment="Top" Width="84" />
+        <Label Height="28" HorizontalAlignment="Left" Margin="16,45,0,0" Name="label5" VerticalAlignment="Top" Width="69" Grid.Column="1" Content="Axis 2" />
+        <Label Content="Axis 3" Height="28" HorizontalAlignment="Left" Margin="15,82,0,0" Name="label6" VerticalAlignment="Top" Width="69" Grid.Column="1" />
+        <ComboBox Grid.Column="1" Height="24" HorizontalAlignment="Left" Margin="13,298,0,0" VerticalAlignment="Top" Width="69" Name="comportbox" />
+        <Button Grid.Column="1" Height="23" HorizontalAlignment="Right" Margin="0,254,193,0" Name="ConnectBtn" VerticalAlignment="Top" Width="80" Content="Connect" Click="ConnectBtn_Click" />
+        <Label Content="90" Grid.Column="1" Height="28" HorizontalAlignment="Left" Margin="101,116,0,0" Name="axis4" VerticalAlignment="Top" />
+        <Label Content="Axis 4" Grid.Column="1" Height="28" HorizontalAlignment="Left" Margin="14,116,0,0" Name="label8" VerticalAlignment="Top" />
+        <Label Content="90" Grid.Column="1" Height="28" HorizontalAlignment="Left" Margin="101,150,0,0" Name="axis5" VerticalAlignment="Top" />
+        <Label Content="90" Grid.Column="1" Height="28" HorizontalAlignment="Left" Margin="100,0,0,175" Name="axis6" VerticalAlignment="Bottom" />
+        <Label Content="Axis 5" Height="28" HorizontalAlignment="Left" Margin="14,0,0,209" Name="label3" VerticalAlignment="Bottom" Grid.Column="1" />
+        <Label Content="Axis 6" Height="28" HorizontalAlignment="Left" Margin="14,0,0,175" Name="label7" VerticalAlignment="Bottom" Grid.Column="1" />
+        <TextBlock Grid.Column="1" Height="17" HorizontalAlignment="Left" Margin="16,276,0,0" Name="textBlock1" Text="Port" VerticalAlignment="Top" Width="51" />
+        <TextBlock Grid.Column="1" Height="25" Margin="266,221,0,0" Name="textBlock2" Text="Kinect Elevation " VerticalAlignment="Top" HorizontalAlignment="Left" Width="92" />
+        <Button Content="Up" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="285,254,0,0" Name="button1" VerticalAlignment="Top" Width="85" Click="Click_up" />
+        <Button Content="Down" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="285,299,0,0" Name="button2" VerticalAlignment="Top" Width="85" Click="Click_down" />
+        <TextBlock Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="365,221,0,0" Name="labelAngle" Text="0" VerticalAlignment="Top" Width="29" />
+        <Slider Grid.Column="1" Height="23" Margin="269,165,46,0" Name="slider1" VerticalAlignment="Top" ValueChanged="changeSpeed" Value="90" Maximum="180" />
+        <TextBlock Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="231,165,0,0" Name="textBlock3" Text="Speed" VerticalAlignment="Top" />
+        <Label Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="365,165,0,0" Name="SpeedLabel" VerticalAlignment="Top" Width="29" />
+        <ComboBox Grid.Column="1" Height="25" HorizontalAlignment="Left" Margin="12,0,0,110" Name="InputMethod" VerticalAlignment="Bottom" Width="66" IsReadOnly="False" IsEditable="False" SelectionChanged="comboBox1_SelectionChanged" ItemsSource="{Binding}" SelectedIndex="1">
+            <ComboBoxItem Content="Direct Binding" />
+            <ComboBoxItem Content="Spine as base" />
+            <ComboBoxItem Content="Shoulder as base" />
+        </ComboBox>
+        <Label Content="Input Method" Grid.Column="1" Height="24" HorizontalAlignment="Left" Margin="16,221,0,0" Name="label1" VerticalAlignment="Top" Width="85" />
+    </Grid>
+</Window>

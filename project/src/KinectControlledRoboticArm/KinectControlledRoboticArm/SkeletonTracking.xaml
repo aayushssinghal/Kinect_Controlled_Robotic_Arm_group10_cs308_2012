@@ -1,0 +1,24 @@
+﻿<Window x:Class="KinectControlledRoboticArm.SkeletonTracking"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Skeletal Tracking" Height="720" Width="720">
+    <Canvas Background="#00000000">
+        <Image Name="colorImageControl" Stretch="Fill"/>
+        <Line Canvas.Left="10" Canvas.Top="10" X1="200" Y1="85" X2="200" Y2="150" Name="elbow_hand_left" Stroke="Yellow" StrokeThickness="2"/>
+        <Line Canvas.Left="10" Canvas.Top="10" X1="300" Y1="85" X2="300" Y2="150" Name="elbow_hand_right" Stroke="Yellow" StrokeThickness="2"/>
+        <Line Canvas.Left="10" Canvas.Top="10" X1="200" Y1="45" X2="200" Y2="85" Name="shoulder_elbow_left" Stroke="Yellow" StrokeThickness="2"/>
+        <Line Canvas.Left="10" Canvas.Top="10" X1="300" Y1="45" X2="300" Y2="85" Name="shoulder_elbow_right" Stroke="Yellow" StrokeThickness="2"/>
+        <Line Canvas.Left="10" Canvas.Top="10" X1="250" Y1="20" X2="200" Y2="45" Name="shoulder_center_left" Stroke="Yellow" StrokeThickness="2"/>
+        <Line Canvas.Left="10" Canvas.Top="10" X1="250" Y1="20" X2="300" Y2="45" Name="shoulder_center_right" Stroke="Yellow" StrokeThickness="2"/>
+        <Line Canvas.Left="10" Canvas.Top="10" X1="250" Y1="0" X2="250" Y2="20" Name="head_shoulder" Stroke="Yellow" StrokeThickness="2"/>
+        <Ellipse Canvas.Left="200" Canvas.Top="150" Height="20" Name="leftHand"  Width="20" Fill="Yellow" Opacity="1" Stroke="White" />
+        <Ellipse Canvas.Left="300" Canvas.Top="150" Fill="Yellow" Height="20" Name="rightHand" Width="20" Opacity="1" Stroke="White" />
+        <Ellipse Canvas.Left="250" Canvas.Top="0" Fill="Yellow" Height="20" Name="head" Width="20" Opacity="1" Stroke="White" />
+        <Ellipse Canvas.Left="250" Canvas.Top="20" Fill="Yellow" Height="20" Name="shoulder_center" Width="20" Opacity="1" Stroke="White" />
+        <Ellipse Canvas.Left="200" Canvas.Top="85" Fill="Yellow" Height="20" Name="leftElbow" Width="20" Opacity="1" Stroke="White" />
+        <Ellipse Canvas.Left="300" Canvas.Top="85" Fill="Yellow" Height="20" Name="rightElbow" Width="20" Opacity="1" Stroke="White" />
+        <Ellipse Canvas.Left="200" Canvas.Top="45" Fill="Yellow" Height="20" Name="leftShoulder" Width="20" Opacity="1" Stroke="White" />
+        <Ellipse Canvas.Left="300" Canvas.Top="45" Fill="Yellow" Height="20" Name="rightShoulder" Width="20" Opacity="1" Stroke="White" />
+        
+    </Canvas>
+</Window>

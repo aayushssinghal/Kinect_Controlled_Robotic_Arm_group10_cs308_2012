@@ -1,0 +1,38 @@
+C:\Users\ERTS-11\Desktop\KinectControlledRoboticArm\KinectControlledRoboticArm\bin\Debug\KinectControlledRoboticArm.exe
+C:\Users\ERTS-11\Desktop\KinectControlledRoboticArm\KinectControlledRoboticArm\bin\Debug\KinectControlledRoboticArm.pdb
+C:\Users\ERTS-11\Desktop\KinectControlledRoboticArm\KinectControlledRoboticArm\bin\Debug\DexterER2.dll
+C:\Users\ERTS-11\Desktop\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ERTS-11\Desktop\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\SkeletonTracking.baml
+C:\Users\ERTS-11\Desktop\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\GUIcontrol.baml
+C:\Users\ERTS-11\Desktop\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\SkeletonTracking.g.cs
+C:\Users\ERTS-11\Desktop\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\GUIcontrol.g.cs
+C:\Users\ERTS-11\Desktop\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\App.g.cs
+C:\Users\ERTS-11\Desktop\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\KinectControlledRoboticArm_MarkupCompile.cache
+C:\Users\ERTS-11\Desktop\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\KinectControlledRoboticArm.g.resources
+C:\Users\ERTS-11\Desktop\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\KinectControlledRoboticArm.Properties.Resources.resources
+C:\Users\ERTS-11\Desktop\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\ERTS-11\Desktop\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\ERTS-11\Desktop\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\KinectControlledRoboticArm.exe
+C:\Users\ERTS-11\Desktop\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\KinectControlledRoboticArm.pdb
+C:\Users\ERTS-11\Desktop\KinectControlledRoboticArm\KinectControlledRoboticArm\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\GUIcontrol.baml
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\SkeletonTracking.baml
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\GUIcontrol.g.cs
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\SkeletonTracking.g.cs
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\App.g.cs
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\KinectControlledRoboticArm_MarkupCompile.cache
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\KinectControlledRoboticArm.g.resources
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\KinectControlledRoboticArm.Properties.Resources.resources
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\bin\Debug\KinectControlledRoboticArm.exe
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\bin\Debug\KinectControlledRoboticArm.pdb
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\bin\Debug\DexterER2.dll
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\KinectControlledRoboticArm.exe
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\KinectControlledRoboticArm.pdb
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\bin\Debug\KinectControlledRoboticArm.exe.manifest
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\bin\Debug\KinectControlledRoboticArm.application
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\KinectControlledRoboticArm.exe.manifest
+C:\Users\gopisivakanth\Desktop\EmbSys Project\KinectControlledRoboticArm\KinectControlledRoboticArm\obj\x86\Debug\KinectControlledRoboticArm.application

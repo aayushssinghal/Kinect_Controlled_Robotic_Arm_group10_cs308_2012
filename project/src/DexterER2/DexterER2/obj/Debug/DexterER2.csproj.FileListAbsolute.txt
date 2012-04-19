@@ -1,0 +1,20 @@
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterER2\DexterER2\bin\Debug\DexterER2.dll
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterER2\DexterER2\bin\Debug\DexterER2.pdb
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterER2\DexterER2\obj\Debug\ResolveAssemblyReference.cache
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterER2\DexterER2\obj\Debug\DexterER2.dll
+c:\users\gopisivakanth\documents\visual studio 2010\Projects\DexterER2\DexterER2\obj\Debug\DexterER2.pdb
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Arm\DexterER2\DexterER2\bin\Debug\DexterER2.dll
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Arm\DexterER2\DexterER2\bin\Debug\DexterER2.pdb
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Arm\DexterER2\DexterER2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Arm\DexterER2\DexterER2\obj\Debug\DexterER2.dll
+C:\Users\Meteora\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Arm\DexterER2\DexterER2\obj\Debug\DexterER2.pdb
+C:\Users\gopisivakanth\Desktop\EmbSys\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Arm\DexterER2\DexterER2\bin\Debug\DexterER2.dll
+C:\Users\gopisivakanth\Desktop\EmbSys\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Arm\DexterER2\DexterER2\bin\Debug\DexterER2.pdb
+C:\Users\gopisivakanth\Desktop\EmbSys\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Arm\DexterER2\DexterER2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gopisivakanth\Desktop\EmbSys\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Arm\DexterER2\DexterER2\obj\Debug\DexterER2.dll
+C:\Users\gopisivakanth\Desktop\EmbSys\EmbSys\Kinect_Controlled_Robotic_Arm_group10_cs308_2012\project\Kinect Arm\DexterER2\DexterER2\obj\Debug\DexterER2.pdb
+C:\Users\gopisivakanth\Desktop\EmbSys Project\DexterER2\DexterER2\bin\Debug\DexterER2.dll
+C:\Users\gopisivakanth\Desktop\EmbSys Project\DexterER2\DexterER2\bin\Debug\DexterER2.pdb
+C:\Users\gopisivakanth\Desktop\EmbSys Project\DexterER2\DexterER2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gopisivakanth\Desktop\EmbSys Project\DexterER2\DexterER2\obj\Debug\DexterER2.dll
+C:\Users\gopisivakanth\Desktop\EmbSys Project\DexterER2\DexterER2\obj\Debug\DexterER2.pdb
